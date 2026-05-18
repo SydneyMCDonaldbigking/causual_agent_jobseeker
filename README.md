@@ -21,6 +21,14 @@ These files are designed for agents that can:
 
 They do **not** require Codex plugin APIs, Chrome-specific hooks, or private skill discovery.
 
+## Start Here
+
+If you are using this package for the first time, read these in order:
+
+1. `QUICKSTART.md`
+2. `SETUP.md`
+3. `RUN_BACKEND.md`
+
 ## Folder Layout
 
 - `skills/`
@@ -81,6 +89,11 @@ Recommended backend branch for current behavior:
 - `main`
 
 That backend now supports dynamic port configuration and defaults to `8001`.
+
+Important: this repository is only the skill package. It does not contain the full backend implementation. To get real job screening and resume-tailoring behavior, you must either:
+
+- run the backend from `ai-job-mediator-no-api`, or
+- point these skills at an already deployed backend service
 
 ## Browser Guidance
 
