@@ -6,6 +6,7 @@ This repository packages:
 
 - multilingual job screening workflows
 - JD-to-resume tailoring workflows
+- Gmail-to-SEEK native-resume application workflows
 - backend API call examples
 - dynamic port examples
 - install scripts that do not depend on Codex-only features
@@ -34,6 +35,7 @@ If you are using this package for the first time, read these in order:
 - `skills/`
   - `filtering-jobs-multilingual.md`
   - `tailoring-resume-to-jd.md`
+  - `seek-gmail-native-apply.md`
 - `examples/`
   - `.env.example`
   - `backend-api-workflows.md`
@@ -102,5 +104,6 @@ If your host agent supports browser automation, use it for:
 - reading live job listings
 - comparing shortlisted postings
 - continuing into authenticated application flows
+- submitting SEEK quick-apply flows after account and resume checks
 
 If your host agent does not support browser automation, use the HTTP flows and summarize the next manual step for the user.

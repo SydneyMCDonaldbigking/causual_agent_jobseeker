@@ -84,6 +84,13 @@ Now the agent can:
 - preview tailored resume changes
 - persist tailored resumes
 - generate cover letters and PDF outputs
+- read SEEK recommendation emails and apply with a saved/native resume when browser automation is available
+
+For Gmail-driven SEEK applications without resume tailoring, read:
+
+```text
+skills/seek-gmail-native-apply.md
+```
 
 ## If You Already Have a Hosted Backend
 

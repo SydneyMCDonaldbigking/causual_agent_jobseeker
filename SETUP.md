@@ -71,6 +71,19 @@ Example resume-tailoring path:
 5. optionally call `POST /api/v1/resumes/improve/confirm`
 6. optionally call cover-letter or PDF endpoints
 
+Example Gmail-to-SEEK native-apply path:
+
+1. read `skills/seek-gmail-native-apply.md`
+2. verify the active mailbox and SEEK account
+3. search recent SEEK recommendation emails
+4. open live SEEK job pages with browser automation
+5. skip duplicates, closed roles, senior mismatches, and hard work-rights blockers
+6. use the saved/native resume without calling tailoring endpoints
+7. write a fresh inline cover letter
+8. answer only confirmed employer questions
+9. submit after the review page confirms resume, cover letter, questions, and account details
+10. record the confirmed submission locally
+
 ## If the Host Agent Has No Browser Automation
 
 That is fine.
@@ -87,5 +100,6 @@ Browser automation only helps with:
 - opening live job listings
 - comparing real page content
 - stepping through application forms
+- submitting Gmail-driven SEEK quick-apply flows
 
 Without browser support, the agent should return links and next steps instead.
