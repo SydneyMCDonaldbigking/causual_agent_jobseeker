@@ -112,8 +112,11 @@ Skip or hold when:
 - the form asks for unknown sensitive facts
 - the form asks for CAPTCHA, identity verification, payment, bank, tax, passport, or password data
 - the application leaves SEEK and requires a full external ATS profile with unknown address or legal details
+- the external ATS requires broad relocation, site-location commitments, or other obligations not already confirmed
 
 For borderline roles, apply only when the hard requirements are absent and the skills overlap is meaningful.
+
+SEEK post-application recommendations may be used as a secondary source after a successful application. Treat them the same way as Gmail recommendations: open the live JD, deduplicate by final job id/URL, and record `seek_post_apply_recommendations` as the source if submitted.
 
 ## Cover Letter
 
@@ -170,9 +173,11 @@ For each selected job:
    - employer questions complete
    - account contact details
 9. Do not opt into strong interest, SEEK Pass, identity verification, or extra promotional features unless the user explicitly asks.
-10. Submit.
-11. Confirm the success page says the application was sent.
-12. Optionally confirm via Gmail success email.
+10. Do not add unverified SEEK Profile education, credentials, skills, licenses, or certifications while passing through profile-update pages.
+11. Submit.
+12. Confirm the success page says the application was sent.
+13. Confirm via Gmail success email when possible. If the success email is missing immediately after the page confirms success, wait briefly and search again before reporting; record the page confirmation and note email confirmation as pending if it still does not appear.
+14. Close tabs opened for the run when the user asks or when working in a shared browser profile.
 
 ## Recording Results
 
